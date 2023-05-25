@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Poppins:ital,wght@0,500;1,500&display=swap");
+body {
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+#myntra_logo {
+  margin-left: 0px;
+  margin-top: -10px;
+  /* width: 100px; */
+  height: 80px;
+}
+#top_heading {
+  height: 80px;
+  padding-top: 10px;
+  background-color: rgb(248, 213, 249);
+  box-shadow: 0px 16px 16px 0px rgba(247, 195, 249, 0.4);
+}
+.inside-nav {
+  /* Outer container of inside navigation content*/
+  margin-left: -1000px;
+  margin-top: 55px;
+  border: 2px solid black;
+  width: 40%;
+  font-size: 15px;
+  /* display: flex ; */
+  box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: absolute;
+  /* margin-top: 30px; */
+  border-radius: 20px;
+  background-color: rgb(230, 250, 251);
+  display: flex;
+  justify-content: space-evenly;
+}
+.ii {
+  margin-right: 5px;
+}
+.cinsidenav {
+  /* border: 3px solid blue; */
+  /* width: 28vw; */
+  padding: 5px 10px 25px;
+  /* height: 50px; */
+  /* display: inline-block;red++ */
+  /* background-color: lightgreen; */
+}
+.m {
+  display: block;
+  text-decoration: none;
+  color: rgb(6, 6, 43);
+  font-weight: 300;
+}
+/* .nvbar a:hover{
+  color:red; */
+/* } */
+.category:hover + #b {
+  transition: 0.5s;
+  margin-top: 55px;
+  margin-left: -10px;
+  z-index: 2;
+}
+
+.nvbar {
+  margin: 15px;
+  display: flex;
+}
+.category {
+  padding-right: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+.cat {
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+#search {
+  padding-left: 50px;
+  padding-top: 7px;
+  width: 40%;
+}
+#searchid {
+  width: 100%;
+  padding: 7px 7px 7px 50px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  background-image: url("searchimg.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+}
+.icons {
+  padding: 10px 0 0 40px;
+  width: 25px;
+  height: 25px;
+}
+.icons:hover {
+  transform: translateY(-10px);
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#iconss {
+  display: flex;
+  justify-content: space-evenly;
+}
